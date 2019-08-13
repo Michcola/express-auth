@@ -12,7 +12,7 @@ post {{url}}/register
 {{json}}
 
 {
-    "username":"user2",
+    "username":"user3",
     "password":"123456"
 }
 
@@ -20,3 +20,13 @@ post {{url}}/register
 
 post {{url}}/login
 {{json}}
+
+{
+    "username":"user3",
+    "password":"123456"
+}
+
+### 个人信息
+
+get {{url}}/profile
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVkNTJjYzViYWIyODc4MzQ4Y2NmYzQ5ZSIsImlhdCI6MTU2NTcwODU5OH0.tWcPBd1j0xIjOfqgHiz2UzdjO_vVr4CZEvxNjsVwlo8
